@@ -1,5 +1,5 @@
 #!name=age anime optimization
-#!desc=
+#!desc=https://raw.githubusercontent.com/SunBK201/MySCR/master/surge/age_anime.sgmodule
 
 [URL Rewrite]
 ^https://vip.cqkeb.com/agefans/js/app.7693c1b1.js https://www.sunbk201.site/hackjs/app.a4467c3b.js 302
