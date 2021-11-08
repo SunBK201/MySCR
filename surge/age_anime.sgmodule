@@ -10,4 +10,4 @@
 rewrite-age-spa = type=http-response,pattern=^https://web.age-spa.com:8443/$,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/SunBK201/MySCR/master/surge/rewrite_age.js
 
 [MITM]
-%APPEND% web.age-spa.com:8443,vip.cqkeb.com
+hostname = %APPEND% web.age-spa.com:8443, vip.cqkeb.com
