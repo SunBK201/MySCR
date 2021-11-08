@@ -1,0 +1,13 @@
+#!name=age anime optimization
+#!desc=
+
+[URL Rewrite]
+^https://vip.cqkeb.com/agefans/js/app.7693c1b1.js https://www.sunbk201.site/hackjs/app.a4467c3b.js 302
+^https://vip.cqkeb.com/agefans/js/chunk-6e6ce277.e8b2bd69.js https://www.sunbk201.site/hackjs/chunk-6e6ce277.e8b2bd69.js 302
+^https://vip.cqkeb.com/agefans/main.css https://www.sunbk201.site/hackjs/main.css 302
+
+[Script]
+rewrite-age-spa = type=http-response,pattern=^https://web.age-spa.com:8443/$,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/SunBK201/MySCR/master/surge/rewrite_age.js
+
+[MITM]
+%APPEND% web.age-spa.com:8443,vip.cqkeb.com
