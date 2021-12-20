@@ -3,7 +3,7 @@
 
 [URL Rewrite]
 ^https://vip.cqkeb.com/agefans/js/app.af3b613a.js https://www.sunbk201.site/hackjs/app.a4467c3b.js 302
-^https://vip.cqkeb.com/agefans/js/chunk-6e6ce277.e8b2bd69.js https://www.sunbk201.site/hackjs/chunk-6e6ce277.e8b2bd69.js 302
+^https://vip.cqkeb.com/agefans/js/chunk-6e6ce277.47001da1.js https://www.sunbk201.site/hackjs/chunk-6e6ce277.e8b2bd69.js 302
 ^https://vip.cqkeb.com/agefans/main.css https://www.sunbk201.site/hackjs/main.css 302
 
 [Script]
