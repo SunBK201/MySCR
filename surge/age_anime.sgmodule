@@ -1,6 +1,9 @@
 #!name=Age Anime Optimization
 #!desc=https://raw.githubusercontent.com/SunBK201/MySCR/master/surge/age_anime.sgmodule
 
+[Rule]
+URL-REGEX,^https://p1.bdxiguaimg.com/origin/1386b0000fc487ec8b2ec,REJECT
+
 [URL Rewrite]
 ^https://vip.cqkeb.com/agefans/js/app.af3b613a.js https://www.sunbk201.site/hackjs/app.a4467c3b.js 302
 ^https://vip.cqkeb.com/agefans/js/chunk-6e6ce277.47001da1.js https://www.sunbk201.site/hackjs/chunk-6e6ce277.e8b2bd69.js 302
@@ -10,4 +13,4 @@
 rewrite-age-spa = type=http-response,pattern=^https://web.age-spa.com:8443/$,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/SunBK201/MySCR/master/surge/rewrite_age.js
 
 [MITM]
-hostname = %APPEND% web.age-spa.com:8443, vip.cqkeb.com
+hostname = %APPEND% web.age-spa.com:8443, vip.cqkeb.com, p1.bdxiguaimg.com
