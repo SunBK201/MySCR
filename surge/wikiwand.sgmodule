@@ -1,0 +1,9 @@
+#!name=Wikiwand
+#!desc=Wikipedia to Wikiwand
+
+[URL Rewrite]
+^https://zh.(m.)?wikipedia.org/(zh-hans|zh-sg|zh-cn|zh(?=/)) http://www.wikiwand.com/zh-cn 302
+^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
+
+[MITM]
+hostname = %APPEND% *.wikipedia.org,*.wikiwand.com
