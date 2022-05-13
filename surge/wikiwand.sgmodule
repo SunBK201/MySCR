@@ -2,7 +2,7 @@
 #!desc=Wikipedia to Wikiwand
 
 [URL Rewrite]
-^https://zh.(m.)?wikipedia.org/(zh-hans|zh-hant|zh-sg|zh-\w*(?=/)|zh) https://www.wikiwand.com/zh-cn 302
+^https://zh.(m.)?wikipedia.org/(wiki|zh-hans|zh-hant|zh-sg|zh-\w*(?=/)|zh) https://www.wikiwand.com/zh-cn 302
 ^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
 
 [MITM]
