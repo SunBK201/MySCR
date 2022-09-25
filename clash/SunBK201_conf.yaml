@@ -309,18 +309,18 @@ rules:
   - DST-PORT,80,Switch
 
   # Unbreak
-  - RULE-SET,Unbreak,DIRECT
+  # - RULE-SET,Unbreak,DIRECT
 
   # Global Area Network
 
   # (Streaming Media)
-  - RULE-SET,Streaming,Switch
+  # - RULE-SET,Streaming,Switch
 
   # (DNS Cache Pollution) / (IP Blackhole) / (Region-Restricted Access Denied) / (Network Jitter)
-  - RULE-SET,Global,Switch
+  # - RULE-SET,Global,Switch
 
   # China Area Network
-  - RULE-SET,China,DIRECT
+  # - RULE-SET,China,DIRECT
 
   # Local Area Network
   - IP-CIDR,192.168.0.0/16,DIRECT
