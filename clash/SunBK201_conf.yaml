@@ -275,33 +275,33 @@ rule-providers:
 #   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
 #   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
 
-  Unbreak:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Unbreak.yaml
-    url: https://raw.staticdn.net/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
-    interval: 86400
+  # Unbreak:
+  #  type: http
+  #  behavior: classical
+  #  path: ./RuleSet/Unbreak.yaml
+  #  url: https://raw.staticdn.net/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+  #  interval: 86400
 
-  Streaming:
-    type: http
-    behavior: classical
-    path: ./RuleSet/StreamingMedia/Streaming.yaml
-    url: https://raw.staticdn.net/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
-    interval: 86400
+  # Streaming:
+  #  type: http
+  #  behavior: classical
+  #  path: ./RuleSet/StreamingMedia/Streaming.yaml
+  #  url: https://raw.staticdn.net/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+  #  interval: 86400
 
-  Global:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Global.yaml
-    url: https://raw.staticdn.net/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
-    interval: 86400
+  # Global:
+  #  type: http
+  #  behavior: classical
+  #  path: ./RuleSet/Global.yaml
+  #  url: https://raw.staticdn.net/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+  #  interval: 86400
 
-  China:
-    type: http
-    behavior: classical
-    path: ./RuleSet/China.yaml
-    url: https://raw.staticdn.net/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
-    interval: 86400
+  # China:
+  #  type: http
+  #  behavior: classical
+  #  path: ./RuleSet/China.yaml
+  #  url: https://raw.staticdn.net/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+  #  interval: 86400
 
 # 规则
 rules:
