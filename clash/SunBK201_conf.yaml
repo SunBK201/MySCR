@@ -307,6 +307,7 @@ rule-providers:
 rules:
   # UA
   - DST-PORT,80,Switch
+  - DST-PORT,8080,Switch
 
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
