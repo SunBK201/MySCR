@@ -306,8 +306,7 @@ rule-providers:
 # 规则
 rules:
   # UA
-  - DST-PORT,80,Switch
-  - DST-PORT,8080,Switch
+  - IN-TYPE,HTTP,proxy
 
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
