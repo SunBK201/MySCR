@@ -306,7 +306,7 @@ rule-providers:
 # 规则
 rules:
   # UA
-  - IN-TYPE,HTTP,proxy
+  - IN-TYPE,HTTP,Switch
 
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
