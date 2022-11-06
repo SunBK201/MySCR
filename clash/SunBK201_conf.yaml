@@ -307,6 +307,8 @@ rule-providers:
 rules:
   # UA
   - IN-TYPE,HTTP,Switch
+  - DST-PORT,80,Switch
+  - DST-PORT,8080,Switch
 
   # Unbreak
   - RULE-SET,Unbreak,DIRECT
